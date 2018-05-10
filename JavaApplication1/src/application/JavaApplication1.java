@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
+package application;
 
 /**
  *
@@ -15,9 +15,8 @@ public class JavaApplication1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        //teste 2
-        // teste 12
+        MainFrame mf = new MainFrame();
+        mf.setVisible(true);              
     }
     
 }
